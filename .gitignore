@@ -1,0 +1,52 @@
+# Java & Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Build
+.gradle
+/build/
+captures/
+.externalNativeBuild/
+.idea/
+
+# Android Studio
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/caches/
+/.idea/gradle.xml
+/.idea/assetWizardSettings.xml
+/.idea/navEditor.xml
+/.idea/vcs.xml
+
+# Log files
+*.log
+
+# Generated files
+*.apk
+*.ap_
+*.dex
+*.keystore
+*.hprof
+
+# Proguard
+proguard/
+proguard-rules.pro
+
+# Lint
+lint/intermediates/
+lint/generated/
+
+# Firebase
+google-services.json
+
+# IntelliJ
+.idea/
+
+# Other
+.DS_Store
+
