@@ -53,7 +53,7 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun obtenerCoordenadas(city: String, callback: (Double?, Double?) -> Unit) {
-        val apiKey = "65b0c919e233434a90be008d3b35296c" // Cambia a tu clave de OpenCageData
+        val apiKey = "" // Cambia a tu clave de OpenCageData
         val url = "https://api.opencagedata.com/geocode/v1/json?q=$city&key=$apiKey"
 
         Thread {
